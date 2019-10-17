@@ -36,7 +36,7 @@ export default class AddItem extends Component {
                     // делаем элемент контролируемым, навешивая велью из стейта
                     value={this.state.label}
                 />
-                <button className="btn btn-outline-primary">Add Item</button>
+                <button className="add-item-btn btn btn-outline-primary">Add Item</button>
             </form>
         );
     }

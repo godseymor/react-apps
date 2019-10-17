@@ -4,4 +4,9 @@
 
 .add-item input {
     margin-right: 5px;
+    width: calc(100% - 100px);
+}
+
+.add-item-btn {
+    width: 100px;
 }
